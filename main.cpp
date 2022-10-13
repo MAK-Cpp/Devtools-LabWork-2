@@ -6,7 +6,7 @@ using namespace std;
 // 1 баг - неправильная реализация самого алгоритма, его пофиксим в релизе
 // 2 баг - возращаться будет unsigned, а пользователь будет переполнять, надо будет заменить на unsigned long long
 
-unsigned EuclideAlgorithm(unsigned a, unsigned b) {
+unsigned long long int EuclideAlgorithm(unsigned long long int a, unsigned long long int b) {
     if (a < b) {
         return EuclideAlgorithm(b, a);
     }
