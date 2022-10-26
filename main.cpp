@@ -18,6 +18,6 @@ unsigned long long int EuclideAlgorithm(unsigned long long int a, unsigned long 
 
 
 int main() {
-
+    EuclideAlgorithm(1, 2);
     return 0;
 }
